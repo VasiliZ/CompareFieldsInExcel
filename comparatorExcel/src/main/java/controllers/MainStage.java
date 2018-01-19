@@ -61,7 +61,7 @@ public class MainStage extends Application implements Actions, Initializable {
 
     public void setPathFile(final File pFile) {
 
-
+ 
     }
 
     public void initialize(URL location, ResourceBundle resources) {
