@@ -9,12 +9,12 @@
    <children>
       <Label fx:id="mPathToFirstFileLabel" layoutX="85.0" layoutY="56.0" prefHeight="28.0" prefWidth="192.0" text="Путь" />
       <Label fx:id="mPathToSecondFileLabel" layoutX="85.0" layoutY="170.0" prefHeight="17.0" prefWidth="207.0" text="Путь" />
-      <Button fx:id="mFirstButton" layoutX="353.0" layoutY="57.0" mnemonicParsing="false" text="Открыть файл" />
-      <Button fx:id="mSecondButton" layoutX="353.0" layoutY="166.0" mnemonicParsing="false" text="Открыть файл" />
-      <ComboBox layoutX="297.0" layoutY="116.0" prefWidth="150.0" />
-      <ComboBox layoutX="297.0" layoutY="212.0" prefWidth="150.0" />
+      <Button fx:id="mFirstButton" layoutX="353.0" layoutY="57.0" mnemonicParsing="false" text="Выбрать файл" />
+      <Button fx:id="mSecondButton" layoutX="353.0" layoutY="166.0" mnemonicParsing="false" text="Выбрать файл" />
+      <ComboBox fx:id="mFieldsFistFile" layoutX="297.0" layoutY="116.0" prefWidth="150.0" />
+      <ComboBox fx:id="mFieldsSecondFile" layoutX="297.0" layoutY="212.0" prefWidth="150.0" />
       <Label layoutX="85.0" layoutY="120.0" text="Выбор полей для сравнения" />
       <Label layoutX="85.0" layoutY="216.0" text="Выбор полей для сравнения" />
-      <Button layoutX="379.0" layoutY="262.0" mnemonicParsing="false" text="Сравнить" />
+      <Button fx:id="mCompareFiles" layoutX="379.0" layoutY="262.0" mnemonicParsing="false" text="Сравнить" />
    </children>
 </AnchorPane>
